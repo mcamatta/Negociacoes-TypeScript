@@ -3,7 +3,9 @@
         "outDir": "dist/js", //diretório dos arquivos resultantes da compilação ts
         "target": "ES6", //converte o código ts para a versão 6 do js
         "noEmitOnError": true, //não irá gerar um arquivo js enquanto o ts não compilar
-        "noImplicitAny": true //exige a tipagem de variáveis
+        "noImplicitAny": true, //exige a tipagem de variáveis
+        "removeComments": true, //comentarios nao vao aparecer no arquivo compilado 
+        "strictNullChecks": true
     },
     "include": ["app/**/*"] //diretórios dos arquivos ts a serem lidos
 }

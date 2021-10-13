@@ -1,6 +1,6 @@
 export class Negociacoes {
     constructor() {
-        this.negociacoes = []; //generic :) / Negociacao[]
+        this.negociacoes = [];
     }
     adiciona(negociacao) {
         this.negociacoes.push(negociacao);
